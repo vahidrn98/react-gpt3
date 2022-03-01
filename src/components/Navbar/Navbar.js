@@ -24,7 +24,7 @@ const Menu = () => (
 );
 
 function Navbar() {
-  const { isMenuOpen, toggleMenu } = useState(false);
+  const [ isMenuOpen, toggleMenu ] = useState(false);
 
   return (
     <div className="gpt3__navbar">
@@ -58,9 +58,9 @@ function Navbar() {
             />
           )}
           {isMenuOpen && (
-            <div className="gpt3__navbar-menu__container scale-up-tr">
+            <div className="gpt3__navbar-menu_container scale-up-tr">
               <Menu />
-              <div className="gpt3__navbar-menu__container-sign">
+              <div className="gpt3__navbar-menu_container-sign">
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div>
