@@ -5,16 +5,19 @@
 }
 
 .gpt3__brand img{
-    height: 42px;
+    height: 32px;
 }
 
 @media screen and (max-width:490px){
     .gpt3__brand{
         flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .gpt3__brand img{
-        width: 100%;
+        width: 40%;
         height:unset;
+        margin: 1rem 0 1rem 0;
     }
 }

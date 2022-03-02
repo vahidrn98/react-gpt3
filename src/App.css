@@ -81,7 +81,7 @@ a{
 
 
 .gradient__text{
-  background: var(--gradient__text);
+  background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -93,10 +93,6 @@ a{
 
 .section__margin{
   margin: 4rem 6rem;
-}
-
-.App {
-  text-align: center;
 }
 
 .App-logo {
