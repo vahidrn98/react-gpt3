@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {Brand,Navbar,CTA,Feature,Article} from './components'
+import {Brand,Navbar,CTA} from './components'
 import {Features,Blog,Footer,GPT3,Header,Possibility} from './containers'
 
 function App() {
