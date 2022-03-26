@@ -1,5 +1,5 @@
 import "./GPT3.css";
-import { Feature } from "../../components/Feature/Feature";
+import { Feature } from "../../components";
 
 function GPT3() {
   return (
