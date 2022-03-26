@@ -2,7 +2,7 @@ import "./Feature.css";
 
 function Feature(props) {
 
-    const [title,text] = props;
+    const {title,text} = props;
 
  return (
  <div className="gpt3__features-container__feature">

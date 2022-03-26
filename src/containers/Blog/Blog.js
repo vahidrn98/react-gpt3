@@ -18,7 +18,7 @@ function Blog() {
         <div className="gpt3__blog-container_groupB">
             {
                 restOfTheArticles.map((image)=>(
-                    <Article imageURL={image} date="2022/5/7" title="Something interesting to read"/>
+                    <Article imageURL={image} key={image} date="2022/5/7" title="Something interesting to read"/>
                 ))
             }
         </div>
