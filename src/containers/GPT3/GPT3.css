@@ -68,7 +68,7 @@
     margin-top: 2rem;
 }
 
-.gpt3__whatgpt3-container .gpt3__features-container__feature {
+.gpt3__whatgpt3-container .gpt3__features-container_feature {
     flex: 1;
     margin: 1rem;
     min-width: 210px;

@@ -32,7 +32,8 @@
 }
 
 .gpt3__cta-btn button{
-    background: solid black;
+    background: black;
+    color: white;
     border-radius: 40px;
     font-size: 18px;
     font-family: var(--font-family);

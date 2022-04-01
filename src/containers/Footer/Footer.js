@@ -1,5 +1,5 @@
 import "./Footer.css";
-import gpt3Logo from "../../assets/logo.png";
+import gpt3Logo from "../../assets/logo.svg";
 
 function Footer() {
   return (
