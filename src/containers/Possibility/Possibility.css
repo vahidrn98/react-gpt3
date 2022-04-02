@@ -55,7 +55,7 @@
     color:#FF8A71;
 }
 
-@media screen and (max-width:950){
+@media screen and (max-width:950px){
     .gpt3__possibility{
         flex-direction: column;
 

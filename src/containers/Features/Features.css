@@ -47,6 +47,16 @@
     .gpt3__features-heading{
         margin: 0 0 2rem 0;
     }
+
+    .gpt3__whatgpt3-container .gpt3__features-container_feature-text{
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .gpt3__whatgpt3-container .gpt3__features-container_feature-text{
+        max-width: unset;
+    }
 }
 
 @media screen and (max-width: 550px){
